@@ -1,0 +1,32 @@
+.LoginPaper {
+    width: 32%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 3rem 3rem;
+    margin: 6rem auto 3rem;
+    
+   }
+
+   .helpful-link {
+margin-top: 10px;
+   }
+
+   .helpful-link:link{
+    margin-left: 5px;
+       }
+
+.error-toast {
+color: white;
+font-family: cursive!important;
+font-weight: 400;
+text-transform: capitalize;
+font-size: 15px!important;
+}
+   @media(max-width:445px){
+
+    .LoginPaper {
+      width: 95%;
+      padding: 2rem 1rem;
+    }
+  }
+  
